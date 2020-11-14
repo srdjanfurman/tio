@@ -64,13 +64,21 @@ See the tio man page for more details.
 
 The latest release version is available at https://tio.github.io
 
+Install steps:
+```
+     $ autoreconf -f -i
+     $ ./configure
+     $ make
+     # make install
+```
+
 ### 3.1 Installation using release tarball
 
 Install steps:
 ```
      $ ./configure
      $ make
-     $ make install
+     # make install
 ```
 See INSTALL file for more installation details.
 
